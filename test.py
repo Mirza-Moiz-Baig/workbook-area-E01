@@ -1,9 +1,0 @@
-def add(a, b):
-    return a + b
-def subtract(a, b):
-    return a - b
-x = 10
-y = 5
-breakpoint()
-result = add(x, y)
-print("Result:", result)
