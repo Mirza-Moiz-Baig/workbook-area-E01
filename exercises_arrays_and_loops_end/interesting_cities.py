@@ -13,10 +13,8 @@ interesting_cities.sort()
 print('Our list of interesting cities in alphabetical order is:')
 print(interesting_cities)
 
-invalid_cities = ('Munich', 'Berlin')
-
+invalid_cities = ("Munich", "Berlin")
 for city in interesting_cities:
     if city in invalid_cities:
         continue
-    print(F"{city} is an interesting city that we can visit")
-
+    print(f"{city} is an interesting city that we can visit")

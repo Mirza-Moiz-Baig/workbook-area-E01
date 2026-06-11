@@ -21,19 +21,8 @@ print("The fourth to ninth shows on the list are:")
 print(tech_shows[3:9])
 
 
-
-
-
-
-
-
-
-
-
-
-
-# print("The top five shows are:")
-# for index, show in enumerate(tech_shows):
-#     print(F"Ranked {index + 1} is: {show}")
-#     if index == 4:
-#         break
+print("The top five shows are:")
+for indx,show in enumerate(tech_shows):
+    print(f"Ranked {indx+1} is: {show}")
+    if indx == 4:
+        break
