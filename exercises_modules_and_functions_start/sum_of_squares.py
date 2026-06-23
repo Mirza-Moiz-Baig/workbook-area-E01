@@ -6,4 +6,3 @@ for number in range(int(my_square)):
     total += (number+1) ** 2
 
 print(F"The sum of squares is {total}")
-   
