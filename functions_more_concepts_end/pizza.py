@@ -15,3 +15,6 @@ def make_pizza(*args, size=None, crust=None, **kwargs):
         print("Special instructions for the pizza are:")
         for key, value in kwargs.items():
             print(F"- {key}: {value}")
+if __name__ == "__main__":
+    help(make_pizza)
+    print(make_pizza.__doc__)
