@@ -5,5 +5,5 @@ def calculate_handicap(*args):
     if len(args) < 5:
         return "Need at least 5 scores to calculate a handicap"
     else:
-        top_five = sorted(args)[:5]
+        top_five = sorted(args)[:5] # get the top 5 values.
         return calculate_average(*top_five) - 72
